@@ -66,7 +66,7 @@ class GeolocationService {
     }
   }
 
-  // Simulate location for testing
+  // Simulate the location for testing
   simulateMovement(destination, steps = 10) {
     if (!this.currentPosition) {
       throw new Error('No current position set');
