@@ -14,12 +14,12 @@ const AlertNotification = ({ destination, onClose }) => {
     <>
       <div className="alert-overlay" onClick={onClose} />
       <div className="alert-notification">
-        <h2>🚨 DESTINATION ALERT!</h2>
+        <h2> DESTINATION ALERT!</h2>
         <p style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>
           You are approaching
         </p>
         <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#667eea' }}>
-          📍 {destination}
+           {destination}
         </p>
         <p style={{ marginTop: '1rem' }}>
           Please prepare to get off!
