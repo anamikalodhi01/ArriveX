@@ -50,7 +50,7 @@ const Dashboard = () => {
     <div className="container">
       <div className="dashboard">
         <div className="dashboard-header">
-          <h1>Welcome back, {user?.name}! 👋</h1>
+          <h1>Welcome back, {user?.name}! </h1>
           <p>Manage your travel destinations and alerts</p>
           <div className="dashboard-actions">
             <Link to="/create-trip" className="btn btn-primary">
@@ -80,7 +80,7 @@ const Dashboard = () => {
                 onClick={() => setFilter('completed')}
               >
                 Completed
-              </button>
+              </button>3
             </div>
           </div>
         </div>
