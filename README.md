@@ -6,7 +6,8 @@ ArriveX is a full-stack MERN application designed to help travelers avoid missin
 
 The system tracks the user’s live location using the Browser Geolocation API and triggers alerts based on distance, route and ETA ensuring timely notifications during travel.
 
-###  Key Features
+
+##3  Key Features
 
 **User Authentication** - Secure JWT-based signup/login  
 **Trip Management** - Complete CRUD operations  
@@ -17,7 +18,7 @@ The system tracks the user’s live location using the Browser Geolocation API a
 **Simulation Mode** - Test without moving  
 **Responsive Design** - Works on desktop  
 
----
+
 
 ## Tech Stack
 
