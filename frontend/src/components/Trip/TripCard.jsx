@@ -43,7 +43,7 @@ const TripCard = ({ trip, onDelete, onRefresh }) => {
 
   return (
     <div className="trip-card">
-      <h3>📍 {trip.destination.name}</h3>
+      <h3> {trip.destination.name}</h3>
       
       <div className="trip-info">
         <div className="trip-info-item">
@@ -71,7 +71,7 @@ const TripCard = ({ trip, onDelete, onRefresh }) => {
 
         {trip.alertTriggered && (
           <div className="trip-info-item" style={{ color: '#ef4444' }}>
-            <strong>🚨 Alert Triggered!</strong>
+            <strong> Alert Triggered!</strong>
           </div>
         )}
 
