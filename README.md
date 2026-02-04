@@ -26,8 +26,13 @@ The system tracks the user’s live location using the Browser Geolocation API a
 - React.js 18 (Vite)
 - React Router DOM v6
 - Axios
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- React Hot Toast
 - Browser Geolocation API
 - Web Audio API
+
 
 **Backend:**
 - Node.js
