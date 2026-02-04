@@ -94,7 +94,7 @@ class AlertService {
   triggerAlert(destination) {
     this.playAlertSound();
     this.sendNotification(
-      '🚨 Destination Alert!',
+      ' Destination Alert!',
       `You are approaching ${destination}. Please prepare to get off!`
     );
     

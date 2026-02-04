@@ -278,7 +278,7 @@ const ActiveTrip = () => {
                   <FiActivity className="text-purple-600" />
                   <span>Live Tracking Data</span>
                   {simulationMode && (
-                    <span className="text-sm text-purple-600 font-normal">(Simulation Mode 🎮)</span>
+                    <span className="text-sm text-purple-600 font-normal">(Simulation Mode )</span>
                   )}
                 </h3>
                 <div className="grid grid-cols-3 gap-4">
